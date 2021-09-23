@@ -71,20 +71,25 @@ p {
   padding: 15px 30px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-weight: normal;
   line-height: 80px;
   font-size: 64px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   line-height: 1.5;
 }
-.about-section {
+.content-container {
   text-align: center;
   padding: 160px 20px;
+}
+
+.content-container h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
 }
 
 @media (max-width: 800px) {
@@ -100,10 +105,10 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content-container {
     padding: 80px 20px;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 55px;
   }
 }
