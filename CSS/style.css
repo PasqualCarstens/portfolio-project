@@ -99,7 +99,7 @@ p {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 55px;
+    font-size: 44px;
   }
   h2 {
     font-size: 44px;
@@ -111,7 +111,7 @@ p {
     padding: 80px 20px;
   }
   .content-container {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
   .content-container h1 {
     font-size: 55px;
