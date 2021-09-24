@@ -33,6 +33,11 @@ h2 {
   text-align: center;
   padding: 80px 20px;
 }
+
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -105,6 +110,47 @@ p {
   line-height: 14px;
 }
 
+footer {
+  margin: 120px 0 60px;
+}
+
+footer .email-link {
+  padding: 40px 0;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 5px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 44px;
@@ -112,6 +158,11 @@ p {
   h2 {
     font-size: 44px;
   }
+
+  h4 {
+    font-size: 18px;
+  }
+
   .project-description {
     text-align: center;
   }
